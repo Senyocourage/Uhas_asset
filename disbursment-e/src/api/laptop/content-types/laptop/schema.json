@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "laptops",
+  "info": {
+    "singularName": "laptop",
+    "pluralName": "laptops",
+    "displayName": "laptop",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "location": {
+      "type": "text",
+      "unique": false,
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "code": {
+      "type": "text",
+      "unique": false,
+      "required": false
+    },
+    "name": {
+      "type": "text",
+      "required": true
+    },
+    "supplier": {
+      "type": "text",
+      "required": true
+    },
+    "serial": {
+      "type": "integer"
+    },
+    "owner": {
+      "type": "text"
+    },
+    "user": {
+      "type": "text"
+    }
+  }
+}
